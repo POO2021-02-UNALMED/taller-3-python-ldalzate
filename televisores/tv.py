@@ -62,3 +62,11 @@ class TV:
 
     def VolumenlDown(self):
         self.setVolumen(self._volumen - 1)
+
+    @staticmethod
+    def getNumTV():
+        return TV._numTV
+
+    @staticmethod
+    def setNumTV(numTV):
+        TV.numTV = numTV

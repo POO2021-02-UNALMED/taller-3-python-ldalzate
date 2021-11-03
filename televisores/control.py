@@ -1,3 +1,5 @@
+from televisores.tv import TV
+
 Class Control:
 
     def __init__(self):
@@ -20,3 +22,16 @@ Class Control:
 
     def VolumenlDown(self):
         self._tv.volumenDown()
+            
+    def setCanal(self):
+        self._tv.setCanal()
+
+    def enlazar(self, tv):
+        self.tv = tv
+        self._tv.setControl(self)
+
+    def getTV(self):
+        return self._tv
+
+    def setTV(self, tv):
+        self._tv = tv
