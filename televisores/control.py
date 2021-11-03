@@ -1,6 +1,4 @@
-from televisores.tv import TV
-
-Class Control:
+class Control:
 
     def __init__(self):
         self._tv = None
