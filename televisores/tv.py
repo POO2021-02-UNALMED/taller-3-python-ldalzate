@@ -69,4 +69,4 @@ class TV:
 
     @staticmethod
     def setNumTV(numTV):
-        TV.numTV = numTV
+        TV._numTV = numTV
